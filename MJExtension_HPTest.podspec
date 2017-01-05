@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+   s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "testPods", "testPods/MJExtension/**/*.{h,m}"
+  s.source_files  = "MJExtension", "MJExtension/*.{h,m}"
   s.requires_arc  = true
   # s.exclude_files = "Classes/Exclude"
 
